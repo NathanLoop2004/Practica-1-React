@@ -14,6 +14,7 @@ function App() {
         image: "/Practica-1-React/public/photo2.png",
         tittle: "ART DIRECTOR",
     },
+    
       {
         name: "Shae Le",
         image: "/Practica-1-React/public/photo3.png",
