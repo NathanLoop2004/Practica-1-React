@@ -6,32 +6,32 @@ function App() {
  const arrayCards = [
     {
         name: "Bill Mahoney",
-        image: "../public/photo1.png",
+        image: "/Practica-1-React/public/photo1.png",
         tittle: "PRODUCT OWNER",
     },
       {
         name: "Saba Cabrera",
-        image: "../public/photo2.png",
+        image: "/Practica-1-React/public/photo2.png",
         tittle: "ART DIRECTOR",
     },
       {
         name: "Shae Le",
-        image: "../public/photo3.png",
+        image: "/Practica-1-React/public/photo3.png",
         tittle: "TEACH LEAD",
     },
        {
         name: "Skylah Lu",
-        image: "../public/photo4.png",
+        image: "/Practica-1-React/public/photo4.png",
         tittle: "UX DESINGNER",
     },
   {
         name: "Griff Richards",
-        image: "../public/photo5.png",
+        image: "/Practica-1-React/public/photo5.png",
         tittle: "DEVELOPER",
     },
       {
         name: "Sthan Jhon",
-        image: "../public/photo6.png",
+        image: "/Practica-1-React/public/photo6.png",
         tittle: "DEVELOPER",
       }
     ]
@@ -47,7 +47,7 @@ function App() {
          <section className=' border-black h-[100px] flex flex-row items-center'>
           <h1 className='font-bold text-[32px] ml-4'>The creative crew</h1>
           <button className='border-black  ml-5'>
-            <img src='../public/icons/icons8-luna-48.png' />
+            <img src='/Practica-1-React/public/icons/icons8-luna-48.png' />
           </button>
          </section>
 
