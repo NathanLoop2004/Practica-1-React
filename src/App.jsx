@@ -33,8 +33,11 @@ function App() {
         name: "Sthan Jhon",
         image: "../public/photo6.png",
         tittle: "DEVELOPER",
-    }
-]
+      }
+    ]
+    
+ 
+    
 
   return (
     <>
@@ -60,15 +63,20 @@ function App() {
 
 
 
+
+
+
+
        {/* Cards Part */}
        <section className='w-[375px] h-[200px] mt-6 border-block grid grid-cols-2'>
 
        {arrayCards.map((card, index)=>(
         <Cards 
-        key={index}
+        key={index} 
         name ={card.name}
         img = {card.image}
         tittle = {card.tittle}
+        isEven = {index % 2 === 1}
         />
        ))}  
        </section>

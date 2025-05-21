@@ -3,23 +3,13 @@ import React from 'react'
 
 
 
-
-
-
-
-
-
-
-
-
-
 export default function Cards(props) {
   
   
   
     return (
     /* Section photos + tittle */
-   <section className=" ml-5  border-black w-[140px] mb-3">
+   <section className={` ml-5  border-black w-[140px] mb-3 ${props.isEven ? 'mt-10' : 'mt-0'}`}>
      {/* Section Photo*/}
       <section className='flex flex-row relative'>
         <img className='w-[140px] h-[170px]  border-black ' src={props.img}/>
