@@ -38,7 +38,6 @@ function App() {
     
  
     
-
   return (
     <>
     {/* Esta parte es la cabecera */}
