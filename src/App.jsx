@@ -6,33 +6,33 @@ function App() {
  const arrayCards = [
     {
         name: "Bill Mahoney",
-        image: "/Practica-1-React/photo1.png",
+        image: "/photo1.png",
         tittle: "PRODUCT OWNER",
     },
       {
         name: "Saba Cabrera",
-        image: "/Practica-1-React/photo2.png",
+        image: "/photo2.png",
         tittle: "ART DIRECTOR",
     },
 
       {
         name: "Shae Le",
-        image: "/Practica-1-React/photo3.png",
+        image: "/photo3.png",
         tittle: "TEACH LEAD",
     },
        {
         name: "Skylah Lu",
-        image: "/Practica-1-React/photo4.png",
+        image: "/photo4.png",
         tittle: "UX DESINGNER",
     },
   {
         name: "Griff Richards",
-        image: "/Practica-1-React/photo5.png",
+        image: "/photo5.png",
         tittle: "DEVELOPER",
     },
       {
         name: "Sthan Jhon",
-        image: "/Practica-1-React/photo6.png",
+        image: "/photo6.png",
         tittle: "DEVELOPER",
       }
     ]
